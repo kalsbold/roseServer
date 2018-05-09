@@ -1,0 +1,949 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TiXmlParsingData" Collapsed="true">
+    <Position X="42.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAQABAAEAAAAAAAAAAEEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\tinyXml\tinyxmlparser.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlString" Collapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAIAAAAEAAAlAsICAQACAAEAAIIAiQExCAABAAA=</HashCode>
+      <FileName>Util\tinyXml\tinystr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlOutStream" Collapsed="true">
+    <Position X="13.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\tinyXml\tinystr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlVisitor" Collapsed="true">
+    <Position X="10.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAQAAAAAAAAAAAAAIAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Util\tinyXml\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlBase" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAgggBQAEAgEAAAQAgBhABASADAQAiAIAAAiAAAkAAA=</HashCode>
+      <FileName>Util\tinyXml\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlNode" Collapsed="true">
+    <Position X="10" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAgAAAIAEAEiiBAhEAAYQAEAAqBgCECAYtgAAtAIDA=</HashCode>
+      <FileName>Util\tinyXml\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlAttribute" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQggAAAgAAQggAEAABAAQQAAAIEAGQAAABgQAIEEAA=</HashCode>
+      <FileName>Util\tinyXml\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlAttributeSet" Collapsed="true">
+    <Position X="40.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAQAAQAAABAAAAAAJAAAAACAiQAAAAAA=</HashCode>
+      <FileName>Util\tinyXml\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlElement" Collapsed="true">
+    <Position X="21.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAACACQAAJAAAAIIEAgQSAAA0BCBAgAAAEIFE=</HashCode>
+      <FileName>Util\tinyXml\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlComment" Collapsed="true">
+    <Position X="5.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAIAAAAAAAAAAAAAAAQAAAAAAAAEIAAAgAAAEIBA=</HashCode>
+      <FileName>Util\tinyXml\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlText" Collapsed="true">
+    <Position X="7.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAgAAAABAAAAAAAAEAAAABAAAABgAEAAAAgAAAEIBQ=</HashCode>
+      <FileName>Util\tinyXml\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlDeclaration" Collapsed="true">
+    <Position X="13" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAgACCAAAQAAAAAAAAAAAAAgAAAAIEAAAIoAAAEKBA=</HashCode>
+      <FileName>Util\tinyXml\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlUnknown" Collapsed="true">
+    <Position X="15.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAAEAAAAAAAAAAAAACAAAAAAEAAAAgAIAEIBA=</HashCode>
+      <FileName>Util\tinyXml\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlDocument" Collapsed="true">
+    <Position X="10" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAABBAQAQABAgEICAAAAAEQBAEBFAAgAEgUJBA=</HashCode>
+      <FileName>Util\tinyXml\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlHandle" Collapsed="true">
+    <Position X="1.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAEAAAAEAAAIAAAEgAIAABAAAAAAAAAIEoCAEAABA=</HashCode>
+      <FileName>Util\tinyXml\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlPrinter" Collapsed="true">
+    <Position X="10.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAEABEhAQgBAAQAAAAMAAAAAAAAABQIBQAwAA=</HashCode>
+      <FileName>Util\tinyXml\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="csv_parser" Collapsed="true">
+    <Position X="42.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAABAAAIAAAAAAFCRBQACAACEABAAQIBUACCAgkISAI=</HashCode>
+      <FileName>Util\csv_parser\csv_parser.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Clock" Collapsed="true">
+    <Position X="6.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAIAAAQAAAEAEAAAAAAIAQCAgACBAACgA=</HashCode>
+      <FileName>Util\Clock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProgramValidation" Collapsed="true">
+    <Position X="40.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgBAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\ProgramValidation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Object" Collapsed="true">
+    <Position X="45.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Util\GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NameObject" Collapsed="true">
+    <Position X="4.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAABAAAAAAAAAIAA=</HashCode>
+      <FileName>Util\GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Work" Collapsed="true">
+    <Position X="1.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAgAAAAAAAAAAAgAAAAABAgAAAAAAA=</HashCode>
+      <FileName>Util\GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObject" Collapsed="true">
+    <Position X="1.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAgAAAAAAAAAAAAEAIAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Util\GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lock" Collapsed="true">
+    <Position X="40.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAQIIAAEAAAAAIAAAIAAAAAAAAEAAAAAAAAACAAIkA=</HashCode>
+      <FileName>Util\Lock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LockSafeScope" Collapsed="true">
+    <Position X="42.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAABAAIAA=</HashCode>
+      <FileName>Util\Lock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LockManager" Collapsed="true">
+    <Position X="33.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAgAAgAAAAAAAAAAAAAAAAAAAAAAAAAAgBAA=</HashCode>
+      <FileName>Util\Lock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LogBase" Collapsed="true">
+    <Position X="1.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAEACAAAAAAAAAAAAAAAAAAAIAg=</HashCode>
+      <FileName>Util\Logger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LogPrintf" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Logger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LogFile" Collapsed="true">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEACAAAAACAAAAAAMAAAAQAAAA=</HashCode>
+      <FileName>Util\Logger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LogWriter" Collapsed="true">
+    <Position X="18.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAACAAIACAAAAAAAAAAABIAAAAAAAAI=</HashCode>
+      <FileName>Util\Logger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemLog" Collapsed="true">
+    <Position X="11" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEACCAAABEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Logger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LowFragmentationHeap" Collapsed="true">
+    <Position X="44" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Memory_LowFragmentationHeap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiniDump" Collapsed="true">
+    <Position X="20" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Minidump.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Monitoring" Collapsed="true">
+    <Position X="24.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEMAAAAAAECAAAAAAEAAAACAAAAAQAAAAAEAAA=</HashCode>
+      <FileName>Util\Monitoring.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RandomMT" Collapsed="true">
+    <Position X="31.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\RandomMT.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Singleton&lt;T&gt;" Collapsed="true">
+    <Position X="19" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAUAAAAgAAAAAAA=</HashCode>
+      <FileName>Util\Singleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="unordered_map&lt;KEY, VALUE&gt;" Collapsed="true">
+    <Position X="44" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAEAECABAAAAAAAIACQIASAAAAAAAAAAAIgAIoAAA=</HashCode>
+      <FileName>Util\Table.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="List&lt;VALUE&gt;" Collapsed="true">
+    <Position X="47.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAACECABCAJAAEAKAKAIASAEBAAAAACABBABIsAAI=</HashCode>
+      <FileName>Util\Table.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskNode" Collapsed="true">
+    <Position X="42.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAQAAAEAAAAAAAKAAAAAAAEAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Task.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Task" Collapsed="true">
+    <Position X="40.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAgAAAAAAAAAEAAQAAAIAIAAAAAAAAEAAAAACAgA=</HashCode>
+      <FileName>Util\Task.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskManager" Collapsed="true">
+    <Position X="15.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAEIIAAAAAAAAAAAAAAAAAACEAA=</HashCode>
+      <FileName>Util\Task.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thread" Collapsed="true">
+    <Position X="45.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAACAEQAAAAAAAAAAEAAAAAAEAAAAAAAAAAAAIgA=</HashCode>
+      <FileName>Util\Thread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThreadManager" Collapsed="true">
+    <Position X="26.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEACAAAAAAAEAAEAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Util\Thread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThreadJobQueue&lt;T&gt;" Collapsed="true">
+    <Position X="47.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACIBAAIAAAAAAAAAAAQAIAAAQYEA=</HashCode>
+      <FileName>Util\ThreadJobQueue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASIOServer" Collapsed="true">
+    <Position X="19" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgIAAgAAAAAABAAAAIAAQAAAIAAgAAAgAAAABAAAAAA=</HashCode>
+      <FileName>Net\Asio\ASIOServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASIOSession" Collapsed="true">
+    <Position X="5.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAIAAAAAAAAAAgQAAAAQAAAAGAACgAEAA=</HashCode>
+      <FileName>Net\Asio\ASIOSession.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IOCPServer" Collapsed="true">
+    <Position X="16" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAgAAAAAAAgAAAEAoAAgAAAWAABAAABAEAA=</HashCode>
+      <FileName>Net\Iocp\IOCPServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IoData" Collapsed="true">
+    <Position X="45.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CkEABAAAACAgAAAAAAAAAAAAgBAhEAAgAAAQAgAAAAA=</HashCode>
+      <FileName>Net\Iocp\IOCPSession.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IOCPSession" Collapsed="true">
+    <Position X="0.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAQAAAAAEAgAAAUAAAAQABAACAAgAAEAA=</HashCode>
+      <FileName>Net\Iocp\IOCPSession.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Package" Collapsed="true">
+    <Position X="47.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAQBAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Net\Packet\Package.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacketAnalyzer" Collapsed="true">
+    <Position X="13.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Net\Packet\PacketAnalyzer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Packet" Collapsed="true">
+    <Position X="19" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAABAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Net\Packet\PacketClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PK_C_REQ_EXIT" Collapsed="true">
+    <Position X="17.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Net\Packet\PacketClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PK_S_ANS_EXIT" Collapsed="true">
+    <Position X="22.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Net\Packet\PacketClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PK_I_NOTIFY_TERMINAL" Collapsed="true">
+    <Position X="26.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Net\Packet\PacketClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PK_C_NOTIFY_HEARTBEAT" Collapsed="true">
+    <Position X="31.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Net\Packet\PacketClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PK_C_REQ_ID_PW" Collapsed="true">
+    <Position X="35.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAABAABAAAAAAgAAAgA=</HashCode>
+      <FileName>Net\Packet\PacketClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PK_S_ANS_ID_PW_FAIL" Collapsed="true">
+    <Position X="2" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Net\Packet\PacketClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PK_S_ANS_ID_PW_SUCCESS" Collapsed="true">
+    <Position X="4.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAABAAAAAAAABAABAAAAgAAAAIAA=</HashCode>
+      <FileName>Net\Packet\PacketClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PK_I_DB_REQ_ID_PW" Collapsed="true">
+    <Position X="6.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAABAABAgAAAAgAAAgA=</HashCode>
+      <FileName>Net\Packet\PacketClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PK_I_DB_ANS_ID_PW" Collapsed="true">
+    <Position X="8.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAQAAAAAAAAAAAAAABAABAgAAAAAAAAAA=</HashCode>
+      <FileName>Net\Packet\PacketClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PK_I_CHTTING_NOTIFY_ID" Collapsed="true">
+    <Position X="11" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAQAAAAAAAAAAAAAABAABAgAAAAAAAAAA=</HashCode>
+      <FileName>Net\Packet\PacketClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PK_I_DB_REQ_LOAD_DATA" Collapsed="true">
+    <Position X="13.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAQAAAAAAAAAAAAAABAABAgAAAAAAAAAA=</HashCode>
+      <FileName>Net\Packet\PacketClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PK_I_DB_ANS_PARSE_DATA" Collapsed="true">
+    <Position X="15.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAABAABAgAAAAAAAIAA=</HashCode>
+      <FileName>Net\Packet\PacketClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PK_I_LOGIN_NOTIFY_ID_LOADED" Collapsed="true">
+    <Position X="20" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAABAABAgAAAAAAAIAA=</HashCode>
+      <FileName>Net\Packet\PacketClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PK_C_REQ_REGIST_CHATTING_NAME" Collapsed="true">
+    <Position X="24.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAABAABAAAAAAAAAIAA=</HashCode>
+      <FileName>Net\Packet\PacketClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PK_C_REQ_CHATTING" Collapsed="true">
+    <Position X="29" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAABAAAAAAAAAAAAAAABAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Net\Packet\PacketClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PK_S_ANS_CHATTING" Collapsed="true">
+    <Position X="33.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAABAAAAAAAAAAAAAAABAABAAAAAAAAAIAA=</HashCode>
+      <FileName>Net\Packet\PacketClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacketFactory" Collapsed="true">
+    <Position X="38" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Net\Packet\PacketFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Obfuscation" Collapsed="true">
+    <Position X="7.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAEAAAAAAAAAAAAAAAAAAAEAAAAAAAAQAAA=</HashCode>
+      <FileName>Net\Packet\PacketObfuscation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XorObfuscation" Collapsed="true">
+    <Position X="7.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAEAAAIAAIAAAAAABAAAAAEAAAAAIAAQAAA=</HashCode>
+      <FileName>Net\Packet\PacketObfuscation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacketObfuscation" Collapsed="true">
+    <Position X="8.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAEEAAAAAEAAAAAAAAAAAAAAAAAAgEAAAAAAAAQAAA=</HashCode>
+      <FileName>Net\Packet\PacketObfuscation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Stream" Collapsed="true">
+    <Position X="47.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAEKWAAgAAAAAIAAAAEAEwEAAAAAA=</HashCode>
+      <FileName>Net\Packet\Stream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Terminal" Collapsed="true">
+    <Position X="44" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgUAAgAAAAAABAAAAAlAAAAAAgAAAAgAAAAgAQAAMAA=</HashCode>
+      <FileName>Net\Terminal\Terminal.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerminalManager" Collapsed="true">
+    <Position X="17.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACgAAAAAAAACAAAUAAAIAAAABAAAABAAAAQAAAAA=</HashCode>
+      <FileName>Net\Terminal\TerminalManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerminalSession" Collapsed="true">
+    <Position X="3" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAgAACAAAAAEAA=</HashCode>
+      <FileName>Net\Terminal\TerminalSession.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Server" Collapsed="true">
+    <Position X="2" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAiAAQAAAAAAAAAFACAAAAgAAAAAAAAAkAgAAAAA=</HashCode>
+      <FileName>Net\Server.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Session" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAgAACAAAQAABCAAAAQAQBAjAQAACAGAAAACEgA=</HashCode>
+      <FileName>Net\Session.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SessionManager" Collapsed="true">
+    <Position X="4.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAEAAAAIAAAACkAAIACAAgACAAAAEAIAAAAoAg=</HashCode>
+      <FileName>Net\SessionManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SessionMonitor" Collapsed="true">
+    <Position X="1.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Net\SessionMonitor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WinSocket" Collapsed="true">
+    <Position X="45.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAQAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Net\WinSocket.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Database" Collapsed="true">
+    <Position X="44" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgBACEAAAAAAgAAAAAAAAAAAAAAEAAAAAAAEAAA=</HashCode>
+      <FileName>Database\Database.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBManager" Collapsed="true">
+    <Position X="22.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAgAQABAAAAAAAAEQAAAAAgEAAAAAAAAAAggCEAM=</HashCode>
+      <FileName>Database\DBManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Query" Collapsed="true">
+    <Position X="42.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAARAIAAACAAAAEAAgAAgAAAAAAAAA=</HashCode>
+      <FileName>Database\Query.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QueryRecord" Collapsed="true">
+    <Position X="44" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQBBQgAgAAAAAAQAAAYAACAAAgADAAAoEgAAAAAAA=</HashCode>
+      <FileName>Database\QueryRecord.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QueryStatement" Collapsed="true">
+    <Position X="45.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABiAEAAAAACBAAAAAAAABAAACAAAIAAAAABA=</HashCode>
+      <FileName>Database\QueryStatement.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ContentsProcess" Collapsed="true">
+    <Position X="40.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAQBEAAEAAEECAIAAggAEAAAAAAAAgAAAwA=</HashCode>
+      <FileName>Contents\ContentsProcess.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="TiXmlCursor" Collapsed="true">
+    <Position X="42.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQACAAAAAAAAAAAABABAAAA=</HashCode>
+      <FileName>Util\tinyXml\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SOCKET_DATA" Collapsed="true">
+    <Position X="40.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Net\Session.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="csv_row" Collapsed="true">
+    <Position X="20.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\csv_parser\csv_parser.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="csv_row_ptr" Collapsed="true">
+    <Position X="20.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\csv_parser\csv_parser.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="enclosure_type_t" Collapsed="true">
+    <Position X="16.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\csv_parser\csv_parser.hpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DayOfTheWeek" Collapsed="true">
+    <Position X="12.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Clock.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="timePoint" Collapsed="true">
+    <Position X="45.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Clock.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LogWriterPtr" Collapsed="true">
+    <Position X="18.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Logger.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="WRITEDUMP" Collapsed="true">
+    <Position X="44" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Minidump.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="EachFunction" Collapsed="true">
+    <Position X="44" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Table.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PairFunction" Collapsed="true">
+    <Position X="44" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Table.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ThreadFunction" Collapsed="true">
+    <Position X="40.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Thread.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="object_t" Collapsed="true">
+    <Position X="47.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Type.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="oid_t" Collapsed="true">
+    <Position X="40.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Type.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="packet_size_t" Collapsed="true">
+    <Position X="42.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Type.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tick_t" Collapsed="true">
+    <Position X="44" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Type.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="thread_t" Collapsed="true">
+    <Position X="47.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Type.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="threadId_t" Collapsed="true">
+    <Position X="42.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Type.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="lock_t" Collapsed="true">
+    <Position X="45.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Type.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="str_t" Collapsed="true">
+    <Position X="45.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Type.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="wstr_t" Collapsed="true">
+    <Position X="45.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Type.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Byte" Collapsed="true">
+    <Position X="40.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Type.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Char" Collapsed="true">
+    <Position X="42.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Type.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Int16" Collapsed="true">
+    <Position X="40.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Type.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="UInt16" Collapsed="true">
+    <Position X="47.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Type.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Int32" Collapsed="true">
+    <Position X="42.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Type.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="UInt32" Collapsed="true">
+    <Position X="40.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Type.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Int64" Collapsed="true">
+    <Position X="44" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Type.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="UInt64" Collapsed="true">
+    <Position X="42.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Type.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Float" Collapsed="true">
+    <Position X="45.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Type.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="xml_t" Collapsed="true">
+    <Position X="13" Y="4.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Type.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="xmlNode_t" Collapsed="true">
+    <Position X="20" Y="4.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Type.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="xmlHandle_t" Collapsed="true">
+    <Position X="1.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\Type.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Function" Collapsed="true">
+    <Position X="47.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServerLibrary.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="IO_OPERATION" Collapsed="true">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Net\Iocp\IOCPSession.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DB_STATE" Collapsed="true">
+    <Position X="8.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Database\Database.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QUERY_TYPE" Collapsed="true">
+    <Position X="14.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Database\QueryStatement.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="__unnamed_enum_005d_1" Collapsed="true">
+    <Position X="42.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAACABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\tinyXml\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TiXmlEncoding" Collapsed="true">
+    <Position X="40.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAABAAAAAAAABAAAA=</HashCode>
+      <FileName>Util\tinyXml\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0044_1" Collapsed="true">
+    <Position X="16.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAACAAAAAAAACgQAAAAAAAAA=</HashCode>
+      <FileName>Util\csv_parser\csv_parser.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0040_1" Collapsed="true">
+    <Position X="12.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAEYAAAAABAAAAQAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Util\Clock.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_001d_1" Collapsed="true">
+    <Position X="17.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAEAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Net\Iocp\IOCPSession.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PacketType" Collapsed="true">
+    <Position X="44" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAEBAQgAAAAAAAAoAACIAAAAIABAAgAAAQAYAAA=</HashCode>
+      <FileName>Net\Packet\PacketHeader.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TERMINAL_STATUS" Collapsed="true">
+    <Position X="47.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Net\Terminal\Terminal.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SERVER_STATUS" Collapsed="true">
+    <Position X="45.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEQAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Net\Server.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_002b_1" Collapsed="true">
+    <Position X="40.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Net\Session.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_000d_1" Collapsed="true">
+    <Position X="8.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAIA=</HashCode>
+      <FileName>Database\Database.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0015_1" Collapsed="true">
+    <Position X="14.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Database\QueryStatement.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Malgun Gothic" Size="9" />
+</ClassDiagram>
